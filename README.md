@@ -8,15 +8,29 @@ This project highlights the usage of the Designhubz react-native package for Spa
 
 ## Using the module
 
-1. Add `designhubz-react-native` dependency as [shown here](./package.json#13)
-2. `import { SpatialXRWidget } from 'designhubz-react-native'`
+### 1. Add dependencies as shown [in package.json](./package.json#13):
+  ``` json
+    "dependencies": {
+      "designhubz-react-native": "https://designhubz-react-native.s3.ap-south-1.amazonaws.com/designhubz-react-native-1.0.0.tgz",
+      "react-native-file-viewer": "https://designhubz-react-native.s3.ap-south-1.amazonaws.com/react-native-file-viewer-2.1.5.tgz",
+      "react-native-fs": "^2.20.0",
+      "react-native-webview": "^11.18.2"
+    }
+  ```
+> `designhubz-react-native` is our main module, but the rest are added as a workaround to react-native not auto-linking nested dependencies.
 
-Display view:
+<br>
+
+### 2. Import and display the SpatialXRWidget component:
+``` js
+import { SpatialXRWidget } from 'designhubz-react-native';
+```
 ``` html
 <SpatialXRWidget
   style={{flex: 1}}
   apiKey={apiKey}
   productID={productID}
+  theme={theme}
 />
 ```
 ---
@@ -26,12 +40,15 @@ Display view:
 1. Clone project and open terminal in root project folder
 2. Install and run:
 ```bash
-npm i
-npm start
+# install
+yarn
+
+# run (yarn android/ios)
+yarn start
 ```
 
 ---
 
 ## Changelog
 
-### 1.0.0 Coming soon
+### 1.0.0 First release
