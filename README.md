@@ -11,7 +11,7 @@ This project highlights the usage of the Designhubz react-native package for Spa
 ### 1. Add dependencies as shown [in package.json](./package.json#13):
   ``` json
     "dependencies": {
-      "designhubz-react-native": "https://designhubz-react-native.s3.ap-south-1.amazonaws.com/designhubz-react-native-1.0.0.tgz",
+      "designhubz-react-native": "https://designhubz-react-native.s3.ap-south-1.amazonaws.com/designhubz-react-native-1.1.1.tgz",
       "react-native-file-viewer": "https://designhubz-react-native.s3.ap-south-1.amazonaws.com/react-native-file-viewer-2.1.5.tgz",
       "react-native-fs": "^2.20.0",
       "react-native-webview": "^11.18.2"
@@ -31,6 +31,7 @@ import { SpatialXRWidget } from 'designhubz-react-native';
   apiKey={apiKey}
   productID={productID}
   theme={theme}
+  directAR={directAR}
 />
 ```
 ---
@@ -50,5 +51,9 @@ yarn start
 ---
 
 ## Changelog
+
+### 1.1.1
+- Bug fixes
+- Expose AR only option with `directAR` prop
 
 ### 1.0.0 First release
