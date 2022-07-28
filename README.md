@@ -31,7 +31,6 @@ import { SpatialXRWidget } from 'designhubz-react-native';
   apiKey={apiKey}
   productID={productID}
   theme={theme}
-  directAR={directAR}
 />
 ```
 ---
@@ -51,6 +50,11 @@ yarn start
 ---
 
 ## Changelog
+
+### 1.1.5
+- Add onError handler
+- Improve direct AR
+- Bug fixes and performance improvements
 
 ### 1.1.1
 - Bug fixes
