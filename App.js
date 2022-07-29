@@ -6,8 +6,8 @@ export default function App()
 {
 	console.log('designhubz-react-native v1.1.5')
 
-	const testApiKey = '1';
-	const testProductID = 'flowers';
+	const testApiKey = '7';
+	const testProductID = '002215234877';
 	const testTheme = 'tanagra';
 	const directAR = false;
 
