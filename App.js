@@ -4,7 +4,7 @@ import { SpatialXRWidget } from 'designhubz-react-native';
 
 export default function App()
 {
-	console.log('designhubz-react-native v1.1.5')
+	console.log('designhubz-react-native v1.2.0')
 
 	const testApiKey = '7';
 	const testProductID = '002215234877';
