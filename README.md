@@ -51,6 +51,9 @@ yarn start
 
 ## Changelog
 
+### 1.2.3
+- Add onARLoaded injected javascript function
+
 ### 1.2.2
 - Support React Native version 0.70.+
 

@@ -8,7 +8,7 @@ export default function App()
 
 	const testApiKey = '8';
 	const testProductID = 'a5d8570859fa4b46b033b3540c7f5648';
-	const testTheme = 'joigifts';
+	const testTheme = 'tanagra';
 	const directAR = false;
 
 	const onError = (err) =>
@@ -32,7 +32,6 @@ export default function App()
 				productID={testProductID}
 				theme={testTheme}
 				directAR={directAR}
-				onShareClicked={shareExampleHandler}
 			/>
 
 		</View>
